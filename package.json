@@ -1,0 +1,30 @@
+{
+    "name": "@aspnxdd/ts-utility-types",
+    "version": "0.0.1",
+    "description": "Some utility types for TypeScript",
+    "keywords": [
+        "api",
+        "blockchain"
+    ],
+    "homepage": "https://arnau-portfolio.vercel.app/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/solana-labs/solana-web3.js.git"
+    },
+    "bugs": {
+        "url": "http://github.com/solana-labs/solana-web3.js.git/issues"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "prepublish": "tsc"
+    },
+    "author": "Arnau Espin <arnauespin@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^4.7.3"
+    }
+}
